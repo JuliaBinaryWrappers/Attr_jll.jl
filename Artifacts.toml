@@ -1,81 +1,103 @@
 [[Attr]]
-arch = "armv7l"
-git-tree-sha1 = "b719fffb495dcc4dbce1beaa8a384ffb39f17b3e"
+arch = "aarch64"
+git-tree-sha1 = "1adb91ed01f71d09f32f180d15fd06b6bedb36c0"
 libc = "glibc"
 os = "linux"
 
     [[Attr.download]]
-    sha256 = "a0eebe97730de522d408c0168c2607e40b09ac30945bdb38a064e3e5b5c4c70f"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.arm-linux-gnueabihf.tar.gz"
+    sha256 = "3f621d268c4e1f9852353ca1699baf970260cb85ed9ac9c9b2e65b211bf04433"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.aarch64-linux-gnu.tar.gz"
 [[Attr]]
 arch = "aarch64"
-git-tree-sha1 = "d615fe7b0cd0c890d2208a460d1b41ad1e4a07ba"
+git-tree-sha1 = "1e013f8a487677487820df94b223a4868a23795d"
 libc = "musl"
 os = "linux"
 
     [[Attr.download]]
-    sha256 = "d6ce04e4bfd8caf6c5f34e44704f407947da5e39a2399e4f46a26171e86dc608"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.aarch64-linux-musl.tar.gz"
+    sha256 = "ddea4b9878ab3f7859eec39fb0194a4b2b20f9ee61a053b715a70e31eb2a5fc9"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.aarch64-linux-musl.tar.gz"
 [[Attr]]
-arch = "i686"
-git-tree-sha1 = "bb4486356ccbaf7514b13224398f3a02de300906"
-libc = "musl"
-os = "linux"
-
-    [[Attr.download]]
-    sha256 = "ba15c8412d5d54f6930862794a35833d58799418239f81d0d29676e9899d0a34"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.i686-linux-musl.tar.gz"
-[[Attr]]
-arch = "i686"
-git-tree-sha1 = "853f94f92ddce24af0ec0c7c9fd8484b946d45f4"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "619ef8fb9c954b0fc23218ec12f42a1da9147d74"
 libc = "glibc"
 os = "linux"
 
     [[Attr.download]]
-    sha256 = "cbe450f0abfef2491068f6d21b8776f84dbb1c9c58659742d52148e76dbb185f"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.i686-linux-gnu.tar.gz"
+    sha256 = "9964cbf03c6947d970a999a0015cf1ddecbf777aac2642d9e518442fc96a6802"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.armv6l-linux-gnueabihf.tar.gz"
+[[Attr]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6e152de71c50066f69801ae34613c11715ca55c5"
+libc = "musl"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "8c25a68bf520b6f7dd9e029a633b660f9394e6e60f46c8f6f3cd938840d2cf47"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.armv6l-linux-musleabihf.tar.gz"
+[[Attr]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c22e9275652e09afa66678db415bbc81c5c14d76"
+libc = "glibc"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "033fba67d1e5a122dab66556ec40333293e2225569e3ecdf137543ec0379c50e"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.armv7l-linux-gnueabihf.tar.gz"
+[[Attr]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "92491125ab72fe06950f799662fc89c4ba39875e"
+libc = "musl"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "47817c4b0b0c30d4f73cd433a77e388d196a7b268756be6d93007ddb6088c06f"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.armv7l-linux-musleabihf.tar.gz"
+[[Attr]]
+arch = "i686"
+git-tree-sha1 = "a59967c1a4fb036b86a61020ce329bfbe7b278be"
+libc = "glibc"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "2fd9bc8250b7f73d3e92523f8a8ca487fe1b9bb26ff8c839ffc325d8f7047429"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.i686-linux-gnu.tar.gz"
+[[Attr]]
+arch = "i686"
+git-tree-sha1 = "a3de746f4618a0ddf0bee45d9d50914116be93ff"
+libc = "musl"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "57bf10d135d7e1d31aca3f57251e1fd3f0829f5d46d2cc8fbb30345b9fef5d9d"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.i686-linux-musl.tar.gz"
 [[Attr]]
 arch = "powerpc64le"
-git-tree-sha1 = "1481b8e004bb38cedc7fd195e57fad3c5ca0d518"
+git-tree-sha1 = "0ae206773c5fa711286f6c5b3a92c73087ac6779"
 libc = "glibc"
 os = "linux"
 
     [[Attr.download]]
-    sha256 = "5fde8166a9b7f92f850937da540ba2d38436e6ef2dfd5a2b508bbb6a0386e954"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "eb8c8dbc9fe6dfb196ae5ffd3e9475794ee5d2977af709c01abc740d376a3bc6"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.powerpc64le-linux-gnu.tar.gz"
 [[Attr]]
-arch = "armv7l"
-git-tree-sha1 = "d13778c8a847d6f6918c009a8a9dec81342156fc"
+arch = "x86_64"
+git-tree-sha1 = "d694409c2e1bd0673b9e32fdc7de429e7211a341"
+libc = "glibc"
+os = "linux"
+
+    [[Attr.download]]
+    sha256 = "4cd2481d42bc32ef698c88a384af34e41cfd5f449cdf0c6b581790578ec0ebac"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.x86_64-linux-gnu.tar.gz"
+[[Attr]]
+arch = "x86_64"
+git-tree-sha1 = "b2f556d383c7174d599a828c37c4ab9f83cee387"
 libc = "musl"
 os = "linux"
 
     [[Attr.download]]
-    sha256 = "6bce58c82f0331b9cd1fbf3cbb6c660c957ba65d53c66bf2e9118c4485cbad22"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.arm-linux-musleabihf.tar.gz"
-[[Attr]]
-arch = "aarch64"
-git-tree-sha1 = "f2c1a7fe901c40f0cf000e81e5f98608cf4cc96f"
-libc = "glibc"
-os = "linux"
-
-    [[Attr.download]]
-    sha256 = "6ce9c03aa03117a56b3589599bdb012df5371836ec3e9ac450cd465ea9912197"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.aarch64-linux-gnu.tar.gz"
-[[Attr]]
-arch = "x86_64"
-git-tree-sha1 = "692add940484a7e4e89a76bf2b6e4c774cfc2dda"
-libc = "glibc"
-os = "linux"
-
-    [[Attr.download]]
-    sha256 = "86fbb36626df92e8e8b56f1f45c84b3044dac400c6a1544df156316026e25017"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.x86_64-linux-gnu.tar.gz"
-[[Attr]]
-arch = "x86_64"
-git-tree-sha1 = "ea47a9000a53368c9cb411a7c3ea609a16274211"
-libc = "musl"
-os = "linux"
-
-    [[Attr.download]]
-    sha256 = "c22be036e10c90e2226478e0476e6ca07a196e4a702d211e9e18853343fff7b7"
-    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.4.48+0/Attr.v2.4.48.x86_64-linux-musl.tar.gz"
+    sha256 = "4a5b930ac664fc1fb3987b955383846b9c7c08ef8fa1f42514e126febbb6977e"
+    url = "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.5.1+0/Attr.v2.5.1.x86_64-linux-musl.tar.gz"
